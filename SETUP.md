@@ -146,6 +146,7 @@ python ./dnainfodemo.py
 ```
 
 サービス登録
+---
 ```
 systemctl start dnainfo
 ＊LEDに表示が出れば成功です。
