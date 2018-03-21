@@ -125,6 +125,7 @@ pip install numpy
 pip install pyserial
 
 /*.py と、 /rckick を、 /data/dnainfo にコピー
+/image/* を、 /data/dnainfo/image/ にコピー
 /systemd/dnainfo.service を、 /etc/systemd/system/ にコピー
 ```
 
