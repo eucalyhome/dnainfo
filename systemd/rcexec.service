@@ -1,0 +1,10 @@
+[Unit]
+Description = irexec
+
+[Service]
+ExecStart=/usr/bin/irexec
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

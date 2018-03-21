@@ -1,0 +1,13 @@
+[Unit]
+Description = dnainfo
+
+[Service]
+ExecStart=/usr/bin/python /data/dnainfo/dnainfoloader.py
+WorkingDirectory=/data/dnainfo
+KillSignal=SIGKILL
+Restart=always
+Type=simple
+PrivateTemp=false
+
+[Install]
+WantedBy=multi-user.target
